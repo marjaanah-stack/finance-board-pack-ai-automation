@@ -14,20 +14,22 @@ notification).
 
 ## 1. Repository structure
 
+1. Repository structure
+
 ```text
 board_pack_automation/
 ├─ README.md
 ├─ LICENSE
-├─ workflow.json              # High-level list of Make modules
+├─ workflow.json           # High-level list of Make modules
 ├─ data/
-│  └─ board_model_example.csv # Example "Board_Model" Google Sheet
+│  └─ board_model_example.csv   # Example "Board_Model" Google Sheet
 ├─ docs/
-│  └─ architecture.md         # Text architecture diagram
+│  └─ architecture.md      # Text architecture diagram
 ├─ demo_output/
 │  ├─ sample_notion_row.md
 │  └─ sample_slack_message.md
 └─ screenshots/
-   └─ .gitkeep                # Drop screenshots here
+   └─ .gitkeep             # Drop screenshots here
 ```
 
 Once you add PNG/JPG files to `screenshots/`, they will render in this
@@ -35,10 +37,18 @@ README via the gallery below.
 
 ## 2. Screenshot gallery
 
-```markdown
-![](screenshots/Google_Sheets_Actuals.png)
-![](screenshots/Make_Scenario_Overview.png)
-![](screenshots/Notion_DB_Structure.png)
+```Key points:
+
+- The repo tree is wrapped in a fenced code block (` ```text ... ``` `).
+- The three `![...]()` image lines are **outside** that code block and start at column 1 (no leading spaces).
+
+### 3. Commit
+
+1. Scroll down, add a small commit message (e.g. `Fix screenshot rendering`).
+2. Click **Commit changes**.
+
+Reload the README; the three images should now render.  
+
 ```
 
 ## 3. How the Make scenario works (high level)
