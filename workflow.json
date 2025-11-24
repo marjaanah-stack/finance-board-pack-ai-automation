@@ -1,0 +1,14 @@
+{
+  "name": "Board_Pack_AI_Generator",
+  "tools": [
+    "Webhooks > Custom webhook",
+    "Tools > Set variable (BASE_CCY, FX_RATES)",
+    "HTTP > Make a request (FX API)",
+    "Google Sheets > Get Range Values (Board_Model / actuals!A1:E*)",
+    "JSON > Create JSON (Actuals_Structure)",
+    "OpenAI > Generate a completion (MD&A commentary)",
+    "Notion > Create a Database Item (Board Pack Run Log)",
+    "Slack > Send a Message (optional)"
+  ],
+  "notes": "Documentation snapshot, not a direct export from Make."
+}

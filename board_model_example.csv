@@ -1,0 +1,13 @@
+entity,currency,period_yyyy_mm,metric,amount
+Strawberry Ltd,GBP,2025-07,Revenue,180000
+Strawberry Ltd,GBP,2025-07,COGS,-64000
+Strawberry Ltd,GBP,2025-07,Opex,-72000
+Strawberry Ltd,GBP,2025-07,Cash,95000
+Raspberry Ltd,GBP,2025-07,Revenue,95000
+Raspberry Ltd,GBP,2025-07,COGS,-38000
+Raspberry Ltd,GBP,2025-07,Opex,-51000
+Raspberry Ltd,GBP,2025-07,Cash,42000
+Fig Ltd,EUR,2025-07,Revenue,70000
+Fig Ltd,EUR,2025-07,COGS,-26000
+Fig Ltd,EUR,2025-07,Opex,-39000
+Fig Ltd,EUR,2025-07,Cash,30000
