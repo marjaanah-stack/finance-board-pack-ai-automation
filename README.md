@@ -1,6 +1,6 @@
 # Finance Board Pack AI Automation
 
-An automation that turns monthly Google Sheets actuals into MD&A commentary (through OpenAI API), writes to Notion, and notifies Slack — triggered via Webhook.
+This is an automation that turns monthly Google Sheets actuals into MD&A commentary (through OpenAI API), writes to Notion, and notifies Slack — triggered via Webhook.
 
 ---
 
